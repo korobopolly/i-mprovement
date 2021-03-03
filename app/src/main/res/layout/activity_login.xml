@@ -18,6 +18,8 @@
         android:textSize="24sp"
         android:layout_marginBottom="16dp"/>
 
+
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -61,7 +63,7 @@
         android:paddingLeft="20dp"
         android:paddingRight="12dp"
         android:clickable="true"
-        >
+        android:weightSum="1">
 
         <ImageView
              android:layout_width="30dp"
@@ -71,14 +73,14 @@
              android:gravity="center"
             />
         <com.google.android.material.textview.MaterialTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:text="Connect with Facebook"
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="18dp"
+            android:layout_weight="1"
             />
-
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <TextView
@@ -89,14 +91,35 @@
         android:layout_marginBottom="16dp"
         />
 
-    <android.widget.Button
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
         android:background="@drawable/sky"
-        android:textColor="@color/white"
-        android:text="Connect with Twitter"
         android:layout_marginBottom="16dp"
-        />
+        android:paddingLeft="20dp"
+        android:paddingRight="12dp"
+        android:clickable="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/s_twitter"
+            android:gravity="center"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Connect with Twitter"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
     <LinearLayout
         android:layout_width="match_parent"
