@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="tw_color">#399ef2</color>
-    <color name="fa_color">#4367b2</color>
+    <color name="fa_color">#000000</color>
     <color name="fa_color_p">#145cbe</color>
     <color name="gray">#777777</color>
     <color name="tw_color_p">#1b91db</color>
